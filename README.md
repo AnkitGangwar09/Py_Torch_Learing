@@ -48,20 +48,24 @@ Successfully tested the model on unseen data
 Verified model reusability after saving/loading
 
 
+All about part 2
+In part 2 worked on classification problems.
+where as follows was done:
 
-🎯 Goal
+0. Architecture of a classification neural network was learned.
+1. Got binary classification data ready
+2.  Build a PyTorch classification model
+3.  Fit the model to data (training)
+4.  Made predictions and evaluated a model (inference)
+5.  Improved a model (from a model perspective)
+6.  Non-linearity
+7.  Replicated non-linear function
+8.  Performed all together with multi-class classification.
 
-This project is the first step in my PyTorch journey.
-Next, I will explore:
+Observation:
+Until non-linearity was introduced model had a decision boundary as a straight line given dataset was circular,also increasing the hidden units & hidden layer & number of epochs did not much improved accuracy of model, later with introduction of non-linearity in model data was accurately classified.
 
-Building more complex neural networks
-
-Activation functions
-
-Multi-layer perceptrons
-
-Image datasets (MNIST/CIFAR)
-
+   
 🛠️ Tech Used
 
 Python
